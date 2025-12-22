@@ -168,7 +168,7 @@ def create_simple_court_figure():
     fig.add_trace(go.Scatter(
         x=x_coords, y=y_coords, mode="markers+text",
         marker=dict(size=60, color=VEEC_COLOR, opacity=0.7, line=dict(width=2, color="white")),
-        text=text_labels, textfont=dict(color="white", size=20, weight="bold"),
+        text=text_labels, textfont=dict(color="white", size=20),
         customdata=custom_data, hoverinfo='text',
         hovertext=[VEEC_ZONES_COORDS[p]["name"] for p in VEEC_ZONES_COORDS]
     ))
@@ -743,4 +743,4 @@ def handle_undo(n_clicks, current_state):
 
 
 if __name__ == '__main__':
-    app.run(debug=True, port=8051)
+    app.run(debug=True, host='0.0.0.0', port=8051)

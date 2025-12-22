@@ -1,0 +1,25 @@
+version: '3.8'
+
+services:
+  veecvolley-app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: veecvolley-stats
+    ports:
+      - "8051:8051"
+    volumes:
+      # Persister la base de données SQLite
+      - ./match_stats.db:/app/match_stats.db
+      # Optionnel: monter le code pour le développement (hot reload)
+      # - ./app.py:/app/app.py
+    environment:
+      # Variables d'environnement si nécessaire
+      - PYTHONUNBUFFERED=1
+    restart: unless-stopped
+    networks:
+      - veecvolley-network
+
+networks:
+  veecvolley-network:
+    driver: bridge
