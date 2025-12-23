@@ -24,12 +24,12 @@ VEEC_ZONES_COORDS = {
 }
 
 LISTE_JOUEURS_PREDEFINIE = [
-    {"numero": 1, "nom": "N. Passeur"}, {"numero": 4, "nom": "D. Pointu"},
-    {"numero": 6, "nom": "M. Central"}, {"numero": 8, "nom": "A. Libero"},
-    {"numero": 10, "nom": "C. Réception"}, {"numero": 12, "nom": "E. Serviteur"},
-    {"numero": 2, "nom": "G. Passeur 2"}, {"numero": 5, "nom": "H. Pointu 2"},
-    {"numero": 7, "nom": "J. Central 2"}, {"numero": 9, "nom": "B. Libero 2"},
-    {"numero": 11, "nom": "F. Réception 2"}, {"numero": 13, "nom": "K. Serviteur 2"},
+    {"numero": 1, "nom": "Bryan R4"}, {"numero": 2, "nom": "Antoine Passeur"},
+    {"numero": 3, "nom": "Andréa R4"}, {"numero": 4, "nom": "Gianni Central"},
+    {"numero": 5, "nom": "Thibault R4"}, {"numero": 6, "nom": "Clément Pointu"},
+    {"numero": 7, "nom": "Valérian Libéro"}, {"numero": 10, "nom": "Tim Central"}, 
+    {"numero": 12, "nom": "Guillaume Pointu"}, {"numero": 14, "nom": "Romain Libéro"},
+    {"numero": 15, "nom": "Dorian Central"}, {"numero": 16, "nom": "Noah Passeur"},
 ]
 
 VEEC_COLOR = "#007bff"
