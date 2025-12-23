@@ -61,6 +61,11 @@ ACTION_CATEGORIES = [
         ("🚫 Touché (0)", "TOUCH", '#17a2b8'),   
         ("⛔ Faute (Adv P)", "ERR", '#dc3545')    
     ]),
+    ("DEFÉNSE", "DEF", [
+        ("✅ Parfaite (+)", "PERF", '#28a745'),   
+        ("👐 Moyenne (0)", "OK", '#17a2b8'),   
+        ("❌ Manquée (Adv P)", "ERR", '#dc3545') 
+    ]),
 ]
 
 # RÈGLES DU VOLLEY-BALL
